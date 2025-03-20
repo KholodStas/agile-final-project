@@ -1,23 +1,14 @@
----
-name: User Story
-about: This tamplate is for creating user stories
-title: ''
-labels: ''
-assignees: ''
-
----
-
-** В качестве ** [ роли ]   
- ** Мне нужна ** [ функция ]   
- ** Так что ** [ выгода ]   
+ **As a** [role]  
+ **I need** [function]  
+ **So that** [benefit]  
    
- ### Подробности и предположения
- * [ документируйте то, что вы знаете ] 
+ ### Details and Assumptions
+ * [document what you know]
    
- ### Критерии приемки  
+ ### Acceptance Criteria  
    
- ```корнишон
-Учитывая [некоторый контекст]
-Когда [предпринимаются определенные действия]
-Затем [наблюдается результат действия]
-```
+ ```gherkin
+ Given [some context]
+ When [certain action is taken]
+ Then [the outcome of action is observed]
+ ```
